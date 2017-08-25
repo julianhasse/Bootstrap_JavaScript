@@ -1,4 +1,4 @@
-# dropdown-menu
+# Bootstrap progress bar animated with JavaScript
 
-Using CSS Div 'positioning' and 'display' attributes.
+Using Bootstrap to add a progress var and JS to animate it.
 by Julian Hasse ®2017.
