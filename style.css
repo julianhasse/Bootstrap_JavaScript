@@ -1,0 +1,72 @@
+body {
+  font-family: 'Helvetica', 'sans-serif';
+  margin:0;
+}
+
+div {
+  background-color: #999;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    display:inline-block;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li:hover {
+  background: #456;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+
+ul li ul li a {
+  display:block !important;
+} 
+
+ul li ul li:hover {
+  background: #666;
+}
+
+.link1:hover {
+  color: red;
+}
+
+a:hover {
+  color: red;
+  transition: all 1s;
+}
+
+a:focus {
+  color:green;
+}
+
+#labelProgress {
+  font-size: 26px;
+  color:red;
+}
+
